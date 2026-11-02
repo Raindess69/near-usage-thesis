@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+requests>=2.31
+tomli>=2.0; python_version < "3.11"

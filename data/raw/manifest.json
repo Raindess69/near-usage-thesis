@@ -1,0 +1,89 @@
+{
+ "fetched_at": "2026-11-02T22:09:59Z",
+ "files": {
+  "http/coingecko_price.json": {
+   "url": "https://api.coingecko.com/api/v3/coins/near/market_chart?vs_currency=usd&days=365&interval=daily",
+   "fetched_at": "2026-11-02T22:10:07Z",
+   "bytes": 37954,
+   "sha256": "17859e622dec338c5c5b6399190628a42d2cc13fb778d06e1a22c0fd87cbc55d"
+  },
+  "http/llama_chain_fees.json": {
+   "url": "https://api.llama.fi/summary/fees/near?dataType=dailyFees&excludeTotalDataChartBreakdown=true",
+   "fetched_at": "2026-11-02T22:10:05Z",
+   "bytes": 42096,
+   "sha256": "1b30e3ee1ddb2339899764ce49ab8f524cfe1760a0b597e1d9f61d20b7b614ae"
+  },
+  "http/llama_chain_tvl.json": {
+   "url": "https://api.llama.fi/v2/historicalChainTvl/Near",
+   "fetched_at": "2026-11-02T22:10:05Z",
+   "bytes": 67672,
+   "sha256": "0812bdc2f886a1220cede30f320b6ba00f3404b70862c27db62beb1e0a22bed5"
+  },
+  "http/llama_intents_fees.json": {
+   "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyFees&excludeTotalDataChartBreakdown=true",
+   "fetched_at": "2026-11-02T22:10:02Z",
+   "bytes": 13948,
+   "sha256": "3fbaa8af0d73b4d3063cab7a55f31e473762e4c4df87f0d9e5b218e870c46838"
+  },
+  "http/llama_intents_holders_revenue.json": {
+   "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyHoldersRevenue&excludeTotalDataChartBreakdown=true",
+   "fetched_at": "2026-11-02T22:10:04Z",
+   "bytes": 12649,
+   "sha256": "f3da4beb78c4f6d7cd0bfd2fac3e19b4d7319e8044d583fa3d740b14b6d10a9c"
+  },
+  "http/llama_intents_revenue.json": {
+   "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyRevenue&excludeTotalDataChartBreakdown=true",
+   "fetched_at": "2026-11-02T22:10:03Z",
+   "bytes": 12738,
+   "sha256": "bb8ca774beea111508888b08a75f80cec28509ee8583244896f4f59764b6be32"
+  },
+  "http/llama_intents_volume.json": {
+   "url": "https://api.llama.fi/summary/dexs/near-intents?excludeTotalDataChartBreakdown=true",
+   "fetched_at": "2026-11-02T22:10:02Z",
+   "bytes": 16887,
+   "sha256": "47c28561a1099f4e0e30efdf475dc80d63a99246d5fc5237728a24ab231f0720"
+  },
+  "http/nearblocks_charts.json": {
+   "url": "https://api.nearblocks.io/v1/charts",
+   "fetched_at": "2026-11-02T22:10:00Z",
+   "bytes": 1536612,
+   "sha256": "d9b15cb92d9c659491e5f1f05b498cd487eb22ce89bc101cc2658b0aab33f93c"
+  },
+  "http/nearblocks_stats.json": {
+   "url": "https://api.nearblocks.io/v1/stats",
+   "fetched_at": "2026-11-02T22:10:01Z",
+   "bytes": 479,
+   "sha256": "cb8621065eb2dfe7e872eed8ca3a21e3a4acdac7d48413c33c82cba79adc2d6b"
+  },
+  "http/revenue_dashboard.html": {
+   "url": "https://revenue.near.org/",
+   "fetched_at": "2026-11-02T22:10:08Z",
+   "bytes": 490491,
+   "sha256": "b0f58505df3b4333535bfadbe812d5b2b44771174b665d3fd1a87aeb898a53c9"
+  },
+  "rpc/epochs.json": {
+   "url": "https://archival-rpc.mainnet.fastnear.com",
+   "fetched_at": "2026-11-02T22:10:09Z",
+   "bytes": 84689,
+   "sha256": "aa882dc3adc8457674948dc17344662fa054b36dd754e43818af48c1e35f4150"
+  },
+  "rpc/protocol_config.json": {
+   "url": "https://archival-rpc.mainnet.fastnear.com",
+   "fetched_at": "2026-11-02T22:10:08Z",
+   "bytes": 12387,
+   "sha256": "b8cfe91a45961c1851108cf7ceb927249916c022025cfc8831c5292e5cd2f770"
+  },
+  "rpc/supply_samples.json": {
+   "url": "https://archival-rpc.mainnet.fastnear.com",
+   "fetched_at": "2026-11-02T22:10:23Z",
+   "bytes": 17256,
+   "sha256": "d01d8f7dec66f111454a3fc09812d3a0dca4ee6c995bc1a902557984a9fc153e"
+  },
+  "rpc/wallet_balances.json": {
+   "url": "https://archival-rpc.mainnet.fastnear.com",
+   "fetched_at": "2026-11-02T22:14:47Z",
+   "bytes": 14425,
+   "sha256": "a3a14efe798538466232f9ff864f54bf2a0162556341436a203894ccf2b5950f"
+  }
+ }
+}

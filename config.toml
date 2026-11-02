@@ -1,0 +1,45 @@
+# Configuration for the NEAR usage thesis pipeline.
+# Every number in THESIS.md and docs/index.html is computed from data/raw/ using these settings.
+
+[sources]
+# Keyless public HTTP endpoints. `python -m nut fetch` saves each response to data/raw/http/<name>.<ext>.
+nearblocks_charts = "https://api.nearblocks.io/v1/charts"
+nearblocks_stats = "https://api.nearblocks.io/v1/stats"
+llama_intents_volume = "https://api.llama.fi/summary/dexs/near-intents?excludeTotalDataChartBreakdown=true"
+llama_intents_fees = "https://api.llama.fi/summary/fees/near-intents?dataType=dailyFees&excludeTotalDataChartBreakdown=true"
+llama_intents_revenue = "https://api.llama.fi/summary/fees/near-intents?dataType=dailyRevenue&excludeTotalDataChartBreakdown=true"
+llama_intents_holders_revenue = "https://api.llama.fi/summary/fees/near-intents?dataType=dailyHoldersRevenue&excludeTotalDataChartBreakdown=true"
+llama_chain_fees = "https://api.llama.fi/summary/fees/near?dataType=dailyFees&excludeTotalDataChartBreakdown=true"
+llama_chain_tvl = "https://api.llama.fi/v2/historicalChainTvl/Near"
+coingecko_price = "https://api.coingecko.com/api/v3/coins/near/market_chart?vs_currency=usd&days=365&interval=daily"
+revenue_dashboard = "https://revenue.near.org/"
+
+[rpc]
+# Public archival JSON-RPC endpoints (no key), tried in order and rotated on rate limits.
+# Override with NEAR_ARCHIVAL_RPC (comma-separated) if you have a private endpoint.
+urls = ["https://archival-rpc.mainnet.fastnear.com", "https://archival-rpc.mainnet.near.org"]
+genesis_height = 9820210
+# Walk back this many complete epochs to measure minting and burning directly from block headers.
+epochs_back = 120
+# Sample one block header every N heights from genesis to today (total_supply cross-check).
+# Public archival RPCs are rate limited: a full fetch makes roughly 400 calls and can take 10-30 minutes.
+supply_sample_step = 2000000
+# Wallets that receive NEAR Intents revenue / execute buybacks (listed on revenue.near.org).
+wallets = ["buybacks.multisignature.near", "fefundsadmin.sputnik-dao.near"]
+wallets_from = "2025-08-01"
+parallel_requests = 4
+
+[analysis]
+# DefiLlama methodology: captured NEAR Intents revenue buys back NEAR from this date.
+buyback_program_start = "2026-02-23"
+# Coverage windows, in days, ending at the as-of date.
+windows = [30, 90]
+# Lead-lag tests use weekly log changes, starting with the first week whose
+# NEAR Intents volume exceeds this threshold (skips launch-phase hypergrowth).
+leadlag_min_weekly_intents_usd = 25000000
+leadlag_lags = 4
+leadlag_min_shift_weeks = 8
+leadlag_alpha = 0.05
+xcorr_max_lag = 8
+# Scenario growth rates (per year) for NEAR Intents revenue in USD, used for the break-even table.
+scenario_growth_rates = [0.25, 0.5, 1.0, 2.0]

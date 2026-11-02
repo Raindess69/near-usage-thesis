@@ -1,0 +1,554 @@
+{
+ "rpc_urls": [
+  "https://archival-rpc.mainnet.fastnear.com",
+  "https://archival-rpc.mainnet.near.org"
+ ],
+ "fetched_at": "2026-11-02T22:14:47Z",
+ "what": "view_account native balance at sampled heights",
+ "data": [
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 157820211,
+   "timestamp_ns": 1754089994487803249,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 159820211,
+   "timestamp_ns": 1755312309833113930,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 161820211,
+   "timestamp_ns": 1756533628722986698,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 163820211,
+   "timestamp_ns": 1757736408335855188,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 165820211,
+   "timestamp_ns": 1758960015077648900,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 167820211,
+   "timestamp_ns": 1760181995988907795,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 169820211,
+   "timestamp_ns": 1761409856683716007,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 171820211,
+   "timestamp_ns": 1762642988853215970,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 173820211,
+   "timestamp_ns": 1763875144985282915,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 175820211,
+   "timestamp_ns": 1765110501389277601,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 177820211,
+   "timestamp_ns": 1766346262298672215,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 179820211,
+   "timestamp_ns": 1767606203966308725,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 181820211,
+   "timestamp_ns": 1768820558867827075,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 183820211,
+   "timestamp_ns": 1770048527951882200,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 185820211,
+   "timestamp_ns": 1771255784240507081,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 187820211,
+   "timestamp_ns": 1772474218623149071,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 189820211,
+   "timestamp_ns": 1773682568366692347,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 191820211,
+   "timestamp_ns": 1774885256660036369,
+   "amount_yocto": "39998442762078857400000000",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 193820211,
+   "timestamp_ns": 1776082558784085925,
+   "amount_yocto": "39998442762078857400000000",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 195820211,
+   "timestamp_ns": 1777287051789391828,
+   "amount_yocto": "13707864834144394896405239528",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 197820211,
+   "timestamp_ns": 1778474892882837482,
+   "amount_yocto": "104114917639279086935534096021",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 199820211,
+   "timestamp_ns": 1779695479329366270,
+   "amount_yocto": "203623940398827134424458165280",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 201820211,
+   "timestamp_ns": 1780909533981905714,
+   "amount_yocto": "375377965294538696584910600566",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 203820211,
+   "timestamp_ns": 1782139621299644227,
+   "amount_yocto": "450776814131167183691538608097",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 205820211,
+   "timestamp_ns": 1783352113038894125,
+   "amount_yocto": "514182359628556764407081060700",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 207820211,
+   "timestamp_ns": 1784578401974103360,
+   "amount_yocto": "592976999462280655926263200953",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 209820211,
+   "timestamp_ns": 1785804558215385923,
+   "amount_yocto": "676054644510169891606309537393",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 211820211,
+   "timestamp_ns": 1787028605972478091,
+   "amount_yocto": "761874866554269935646532412968",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 213820211,
+   "timestamp_ns": 1788257224921502719,
+   "amount_yocto": "943029976947448571383619470348",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 215820211,
+   "timestamp_ns": 1789500697591748214,
+   "amount_yocto": "1640920409698085141772771178445",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 217820211,
+   "timestamp_ns": 1790711429982672190,
+   "amount_yocto": "1831696845678903321045578886987",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 219820211,
+   "timestamp_ns": 1791896626444274332,
+   "amount_yocto": "1963877958479850321126635647550",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 221820211,
+   "timestamp_ns": 1793100323348031801,
+   "amount_yocto": "2090700467297892654318703060510",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "buybacks.multisignature.near",
+   "height": 222779545,
+   "timestamp_ns": 1793657407412677281,
+   "amount_yocto": "2156371336956471624895223499753",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 157820211,
+   "timestamp_ns": 1754089994487803249,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 159820211,
+   "timestamp_ns": 1755312309833113930,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 161820211,
+   "timestamp_ns": 1756533628722986698,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 163820211,
+   "timestamp_ns": 1757736408335855188,
+   "amount_yocto": "0",
+   "locked_yocto": "0",
+   "exists": false
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 165820211,
+   "timestamp_ns": 1758960015077648900,
+   "amount_yocto": "6000063769992204900000000",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 167820211,
+   "timestamp_ns": 1760181995988907795,
+   "amount_yocto": "6000063769992204900000000",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 169820211,
+   "timestamp_ns": 1761409856683716007,
+   "amount_yocto": "6000063769992204900000000",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 171820211,
+   "timestamp_ns": 1762642988853215970,
+   "amount_yocto": "153342050703648406608999999999",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 173820211,
+   "timestamp_ns": 1763875144985282915,
+   "amount_yocto": "319050161228759752823499999997",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 175820211,
+   "timestamp_ns": 1765110501389277601,
+   "amount_yocto": "427518101488555603057299999996",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 177820211,
+   "timestamp_ns": 1766346262298672215,
+   "amount_yocto": "427518101723918511474899999995",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 179820211,
+   "timestamp_ns": 1767606203966308725,
+   "amount_yocto": "427518101723918511474899999995",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 181820211,
+   "timestamp_ns": 1768820558867827075,
+   "amount_yocto": "634329826293553877536299999993",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 183820211,
+   "timestamp_ns": 1770048527951882200,
+   "amount_yocto": "861521947664125357377199999991",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 185820211,
+   "timestamp_ns": 1771255784240507081,
+   "amount_yocto": "924285595718898162638699999990",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 187820211,
+   "timestamp_ns": 1772474218623149071,
+   "amount_yocto": "1040973483832458490892699999989",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 189820211,
+   "timestamp_ns": 1773682568366692347,
+   "amount_yocto": "1068789013362485043906399999987",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 191820211,
+   "timestamp_ns": 1774885256660036369,
+   "amount_yocto": "1270362836891798142157799999985",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 193820211,
+   "timestamp_ns": 1776082558784085925,
+   "amount_yocto": "1270362836891798142157799999985",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 195820211,
+   "timestamp_ns": 1777287051789391828,
+   "amount_yocto": "1272623644455230235278514861618",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 197820211,
+   "timestamp_ns": 1778474892882837482,
+   "amount_yocto": "1297901284152879501468743518640",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 199820211,
+   "timestamp_ns": 1779695479329366270,
+   "amount_yocto": "1339730883206786580461062909562",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 201820211,
+   "timestamp_ns": 1780909533981905714,
+   "amount_yocto": "1408295906161007181639644934411",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 203820211,
+   "timestamp_ns": 1782139621299644227,
+   "amount_yocto": "1433418577910684884609558152077",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 205820211,
+   "timestamp_ns": 1783352113038894125,
+   "amount_yocto": "1455254786222416900376166950755",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 207820211,
+   "timestamp_ns": 1784578401974103360,
+   "amount_yocto": "1489534484386214392848559036891",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 209820211,
+   "timestamp_ns": 1785804558215385923,
+   "amount_yocto": "1527190535668493016946791379820",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 211820211,
+   "timestamp_ns": 1787028605972478091,
+   "amount_yocto": "1566618712361198454819739825503",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 213820211,
+   "timestamp_ns": 1788257224921502719,
+   "amount_yocto": "1651448989461800729202428915929",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 215820211,
+   "timestamp_ns": 1789500697591748214,
+   "amount_yocto": "1721380437810980822939972335893",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 217820211,
+   "timestamp_ns": 1790711429982672190,
+   "amount_yocto": "1802996100234671331056612389623",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 219820211,
+   "timestamp_ns": 1791896626444274332,
+   "amount_yocto": "1886424791954277388761570817186",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 221820211,
+   "timestamp_ns": 1793100323348031801,
+   "amount_yocto": "1943902147043596869672359329347",
+   "locked_yocto": "0",
+   "exists": true
+  },
+  {
+   "account_id": "fefundsadmin.sputnik-dao.near",
+   "height": 222779545,
+   "timestamp_ns": 1793657407412677281,
+   "amount_yocto": "1966438431374385817888432490127",
+   "locked_yocto": "0",
+   "exists": true
+  }
+ ]
+}

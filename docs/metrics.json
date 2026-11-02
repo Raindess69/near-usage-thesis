@@ -1,0 +1,626 @@
+{
+ "as_of": "2026-11-01",
+ "fetched_at": "2026-11-02T22:09:59Z",
+ "protocol": {
+  "protocol_version": 86,
+  "max_inflation_rate": [
+   1,
+   40
+  ],
+  "max_inflation_rate_float": 0.025,
+  "protocol_reward_rate": [
+   0,
+   1
+  ],
+  "epoch_length_blocks": 43200
+ },
+ "issuance": {
+  "rpc_epochs": 120,
+  "rpc_first_epoch_start": "2026-09-28 02:09",
+  "rpc_last_epoch_end": "2026-11-02 17:59",
+  "rpc_minted_near": 3185768.922175808,
+  "rpc_burnt_near": 36663.65903104196,
+  "rpc_burn_over_mint": 0.011508574515819407,
+  "rpc_annualized_issuance": 0.02490962585670442,
+  "rpc_minted_per_day_near": 89338.10387954705,
+  "rpc_burnt_per_day_near": 1028.1542255997822,
+  "rpc_mean_epoch_hours": 7.131937625340969,
+  "burn_to_fee_ratio": 0.7965791247202848,
+  "burn_calibration_days": 34,
+  "mint_check_indexer_over_rpc": 0.9971483219673032,
+  "supply_check_samples": 107,
+  "supply_check_median_abs_rel_diff": 6.848713623351753e-05,
+  "supply_check_max_abs_rel_diff": 0.00016934109886096622,
+  "supply_check_median_abs_rel_diff_next_day": 0.00016479250648450302,
+  "halving_detected_on": "2025-10-30",
+  "gross_issuance_rate_before": 0.04976699999181701,
+  "gross_issuance_rate_after": 0.024866550478900424,
+  "total_supply_near_as_of": 1310576026.3527384
+ },
+ "capture": {
+  "d30": {
+   "start": "2026-10-03",
+   "end": "2026-11-01",
+   "days": 30,
+   "minted_near": 2678804.5588672427,
+   "burn_near": 28823.75253203176,
+   "intents_revenue_near": 430954.4768875353,
+   "intents_revenue_usd": 2091218.0,
+   "intents_buyback_near": 430954.4768875353,
+   "intents_volume_usd": 3818396161.0,
+   "intents_fees_usd": 6103957.0,
+   "minted_usd": 13079934.373117287,
+   "burn_usd": 142425.82461607273,
+   "gas_fees_usd": 178721.3553971,
+   "avg_price_usd": 4.8746950563333336,
+   "coverage_burn": 0.010759931118013384,
+   "coverage_intents": 0.16087566950750912,
+   "coverage_total": 0.1716356006255225,
+   "coverage_total_usd": 0.17076873330548198,
+   "intents_share_of_capture": 0.9373094446676621,
+   "intents_revenue_over_gas_fees": 11.700996757514144,
+   "net_capture_bps": 5.476692076529667,
+   "gross_fee_bps": 15.985656654341058,
+   "effective_emissions_near": 2219026.3294476755,
+   "breakeven_multiple": 5.85587291445874
+  },
+  "d90": {
+   "start": "2026-08-04",
+   "end": "2026-11-01",
+   "days": 90,
+   "minted_near": 8022900.519054793,
+   "burn_near": 76720.44715132512,
+   "intents_revenue_near": 1444658.537548063,
+   "intents_revenue_usd": 4749045.0,
+   "intents_buyback_near": 1444658.537548063,
+   "intents_volume_usd": 11483293926.0,
+   "intents_fees_usd": 17484274.0,
+   "minted_usd": 26895787.67007816,
+   "burn_usd": 280639.02888627583,
+   "gas_fees_usd": 352146.79789949,
+   "avg_price_usd": 3.343221121111111,
+   "coverage_burn": 0.009562682095971425,
+   "coverage_intents": 0.1800668641119164,
+   "coverage_total": 0.18962954620788783,
+   "coverage_total_usd": 0.18700638518506194,
+   "intents_share_of_capture": 0.9495717714501726,
+   "intents_revenue_over_gas_fees": 13.48598092706632,
+   "net_capture_bps": 4.135612160242114,
+   "gross_fee_bps": 15.225835124199712,
+   "effective_emissions_near": 6501521.534355405,
+   "breakeven_multiple": 5.347410993535851
+  },
+  "since_buyback": {
+   "start": "2026-02-23",
+   "end": "2026-11-01",
+   "days": 252,
+   "minted_near": 22318832.792830806,
+   "burn_near": 237748.01981244778,
+   "intents_revenue_near": 3161071.584007038,
+   "intents_revenue_usd": 7542709.05,
+   "intents_buyback_near": 3161071.584007038,
+   "intents_volume_usd": 22632790837.0,
+   "intents_fees_usd": 34893781.0,
+   "minted_usd": 50610965.667626716,
+   "burn_usd": 528482.4962216725,
+   "gas_fees_usd": 663149.01525001,
+   "avg_price_usd": 2.2598443960714287,
+   "coverage_burn": 0.010652350058772632,
+   "coverage_intents": 0.14163247752913086,
+   "coverage_total": 0.1522848275879035,
+   "coverage_total_usd": 0.15947515404521134,
+   "intents_share_of_capture": 0.9300498268442154,
+   "intents_revenue_over_gas_fees": 11.374078640765783,
+   "net_capture_bps": 3.3326464704782266,
+   "gross_fee_bps": 15.417356724278024,
+   "effective_emissions_near": 18920013.18901132,
+   "breakeven_multiple": 6.270569268216535
+  },
+  "ytd": {
+   "start": "2026-01-01",
+   "end": "2026-11-01",
+   "days": 305,
+   "minted_near": 26982087.925706297,
+   "burn_near": 346478.3324884444,
+   "intents_revenue_near": 3781774.815339328,
+   "intents_revenue_usd": 8368228.05,
+   "intents_buyback_near": 3161071.5840070387,
+   "intents_volume_usd": 27281916864.0,
+   "intents_fees_usd": 42427037.0,
+   "minted_usd": 57080075.30071592,
+   "burn_usd": 680095.2335189469,
+   "gas_fees_usd": 853443.2497372199,
+   "avg_price_usd": 2.108655975245902,
+   "coverage_burn": 0.012841049715739327,
+   "coverage_intents": 0.14015871661793697,
+   "coverage_total": 0.1529997663336763,
+   "coverage_total_usd": 0.158519820372512,
+   "intents_share_of_capture": 0.9160714423070793,
+   "intents_revenue_over_gas_fees": 9.805254248102173,
+   "net_capture_bps": 3.067316747468848,
+   "gross_fee_bps": 15.551340183132375,
+   "effective_emissions_near": 23474538.009210814,
+   "breakeven_multiple": 6.3083594067294575
+  },
+  "last_full_month": "2026-10",
+  "last_full_month_coverage_total": 0.17408536141932368,
+  "last_full_month_coverage_burn": 0.011373786767314296,
+  "last_full_month_coverage_intents": 0.1627115746520094,
+  "coverage_2026_min": 0.08049368623511831,
+  "coverage_2026_max": 0.26626063463897254,
+  "coverage_2026_min_month": "2026-04",
+  "coverage_2026_max_month": "2026-02",
+  "net_bps_first_month": "2025-11",
+  "net_bps_first_value": 2.097884469332077,
+  "net_bps_last_value": 5.493522045360646,
+  "growth_from_month": "Q1 2026",
+  "growth_to_months": "2026-08..2026-10",
+  "revenue_usd_growth_multiple": 2.9967304125859884,
+  "revenue_near_growth_multiple": 1.1729469011317804,
+  "price_growth_multiple": 2.4773968412843623,
+  "coverage_q1_2026": 0.180559649034893,
+  "coverage_last3": 0.18736255474016136
+ },
+ "official": {
+  "available": true,
+  "months_compared": 10,
+  "mean_abs_diff_pp": 3.9203422985837113,
+  "max_abs_diff_pp": 10.166063463897254,
+  "max_abs_diff_month": "2026-02",
+  "months_within_5pp": 7,
+  "official_mean": 0.15829,
+  "ours_mean": 0.1542969607692456,
+  "official_ytd_date": "2026-11-01",
+  "official_ytd_emissions_near": 27032553.64882579,
+  "official_ytd_revenue_near": 4273471.496941613,
+  "official_ytd_offset": 0.15808611914573004,
+  "ours_ytd_offset_same_months": 0.15299976633367632,
+  "updated": "Nov 02, 2026"
+ },
+ "usage": {
+  "txns_peak_month": "2024-12",
+  "txns_peak_month_value": 255882809.0,
+  "last_full_month": "2026-10",
+  "txns_last_month_value": 22627935.0,
+  "txns_change_from_peak": -0.9115691472653796,
+  "txns_q1_2026_daily": 3491326.9555555554,
+  "txns_last90_daily": 735883.7666666667,
+  "txns_change_q1_to_last90": -0.7892251925888248,
+  "active_accounts_q1_2026_daily": 196378.67777777778,
+  "active_accounts_last90_daily": 71460.21111111112,
+  "active_accounts_change_q1_to_last90": -0.6361101321194578,
+  "intents_volume_usd_q1_2026_daily": 79804720.5,
+  "intents_volume_usd_last90_daily": 127592154.73333333,
+  "intents_volume_usd_change_q1_to_last90": 0.5988046062179158,
+  "txn_fee_near_q1_2026_daily": 2590.4054489726486,
+  "txn_fee_near_last90_daily": 1070.1377758196152,
+  "txn_fee_near_change_q1_to_last90": -0.5868840623987914,
+  "txns_mar_to_apr_2026": -0.7367048611019362,
+  "fees_mar_to_apr_2026_nearblocks": -0.6923631256403531,
+  "fees_mar_to_apr_2026_defillama": -0.6906604142243064,
+  "intents_volume_last90": 11483293926.0,
+  "intents_volume_prev_year_90": 2597230864.0,
+  "intents_volume_yoy_multiple": 4.42136049019322,
+  "intents_volume_all_time": 36093351446.0
+ },
+ "checks": {
+  "fees_months_compared": 70,
+  "fees_ratio_median": 1.000298788734077,
+  "fees_ratio_last24_min": 0.9875135569492274,
+  "fees_ratio_last24_max": 1.0375379639210742,
+  "price_days_compared": 364,
+  "price_median_abs_rel_diff": 0.0007414812764878764,
+  "price_p95_abs_rel_diff": 0.005610571728099074
+ },
+ "wallets": {
+  "available": true,
+  "buyback_wallet_latest_near": 2156371.3369564717,
+  "buyback_wallet_latest_time": "2026-11-02",
+  "buyback_wallet_at_start_near": 0.0,
+  "buyback_wallet_increase_near": 2156371.3369564717,
+  "buyback_wallet_largest_drop_near": 0.0,
+  "defillama_buyback_near_same_period": 3161071.584007038,
+  "wallet_vs_defillama_ratio": 0.6821646646239539,
+  "latest_buybacks.multisignature.near": 2156371.3369564717,
+  "latest_fefundsadmin.sputnik-dao.near": 1966438.4313743857,
+  "wallet_summary": [
+   {
+    "account_id": "buybacks.multisignature.near",
+    "latest_near": 2156371.3369564717,
+    "latest_time": "2026-11-02",
+    "first_sample_over_10k": "2026-04-27"
+   },
+   {
+    "account_id": "fefundsadmin.sputnik-dao.near",
+    "latest_near": 1966438.4313743857,
+    "latest_time": "2026-11-02",
+    "first_sample_over_10k": "2025-11-08"
+   }
+  ]
+ },
+ "breakeven": {
+  "window": "2026-08-04..2026-11-01",
+  "multiple": 5.347410993535851,
+  "coverage_total_usd": 0.18700638518506194,
+  "net_capture_bps": 4.135612160242114,
+  "required_daily_intents_volume_usd": 715066747.8782831,
+  "current_daily_intents_volume_usd": 127592154.73333333,
+  "required_volume_multiple": 5.604315950089309,
+  "required_annual_intents_volume_usd": 260999362975.57333,
+  "scenarios": [
+   {
+    "growth_per_year": 0.25,
+    "years_to_breakeven": 7.513605064817579,
+    "observed": false
+   },
+   {
+    "growth_per_year": 0.5,
+    "years_to_breakeven": 4.135035256569017,
+    "observed": false
+   },
+   {
+    "growth_per_year": 1.0,
+    "years_to_breakeven": 2.41884056425276,
+    "observed": false
+   },
+   {
+    "growth_per_year": 2.0,
+    "years_to_breakeven": 1.5261184811326387,
+    "observed": false
+   },
+   {
+    "growth_per_year": 3.42136049019322,
+    "years_to_breakeven": 1.1279325852714854,
+    "observed": true
+   }
+  ],
+  "observed_growth_per_year": 3.42136049019322,
+  "years_at_observed_growth": 1.1279325852714854
+ },
+ "leadlag": {
+  "weeks": 74,
+  "start_week": "2025-06-08",
+  "end_week": "2026-11-01",
+  "lags": 4,
+  "tests": [
+   {
+    "hypothesis": "H2",
+    "predictor": "intents_volume_usd",
+    "target": "gas_near",
+    "f": 0.2191285995244127,
+    "r2_gain": 0.012846294882306078,
+    "p_value": 0.8666666666666667,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H2",
+    "predictor": "price_usd",
+    "target": "gas_near",
+    "f": 1.919822328780694,
+    "r2_gain": 0.10140045669005178,
+    "p_value": 0.18333333333333332,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H2",
+    "predictor": "intents_volume_usd",
+    "target": "txns",
+    "f": 0.5802483236822256,
+    "r2_gain": 0.03214617649728581,
+    "p_value": 0.75,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H2",
+    "predictor": "price_usd",
+    "target": "txns",
+    "f": 1.1656944067219197,
+    "r2_gain": 0.06227713310563691,
+    "p_value": 0.25,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H2",
+    "predictor": "intents_volume_usd",
+    "target": "active_accounts",
+    "f": 1.9637150240459509,
+    "r2_gain": 0.07061432035839084,
+    "p_value": 0.18333333333333332,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H2",
+    "predictor": "price_usd",
+    "target": "active_accounts",
+    "f": 0.27993724230073946,
+    "r2_gain": 0.011157834331083416,
+    "p_value": 1.0,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H3",
+    "predictor": "intents_volume_usd",
+    "target": "price_usd",
+    "f": 0.4275131738455957,
+    "r2_gain": 0.026771454028708192,
+    "p_value": 0.8333333333333334,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H3",
+    "predictor": "gas_near",
+    "target": "price_usd",
+    "f": 0.2861336769333412,
+    "r2_gain": 0.01808113372674906,
+    "p_value": 0.7333333333333333,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H3",
+    "predictor": "txns",
+    "target": "price_usd",
+    "f": 0.3057799848885095,
+    "r2_gain": 0.019298204074127256,
+    "p_value": 0.8,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "hypothesis": "H3",
+    "predictor": "active_accounts",
+    "target": "price_usd",
+    "f": 0.2584004964341215,
+    "r2_gain": 0.016357840438889798,
+    "p_value": 0.95,
+    "n_obs": 70,
+    "n_shifts": 59,
+    "p_holm": 1.0,
+    "significant": false
+   }
+  ],
+  "n_tests": 10,
+  "n_significant": 0,
+  "n_raw_below_alpha": 0,
+  "h2_comparison": [
+   {
+    "target": "gas_near",
+    "intents_r2_gain": 0.012846294882306078,
+    "price_r2_gain": 0.10140045669005178,
+    "intents_p": 0.8666666666666667,
+    "price_p": 0.18333333333333332,
+    "better": "price_usd"
+   },
+   {
+    "target": "txns",
+    "intents_r2_gain": 0.03214617649728581,
+    "price_r2_gain": 0.06227713310563691,
+    "intents_p": 0.75,
+    "price_p": 0.25,
+    "better": "price_usd"
+   },
+   {
+    "target": "active_accounts",
+    "intents_r2_gain": 0.07061432035839084,
+    "price_r2_gain": 0.011157834331083416,
+    "intents_p": 0.18333333333333332,
+    "price_p": 1.0,
+    "better": "intents_volume_usd"
+   }
+  ],
+  "h2_intents_better_count": 1,
+  "xcorr": {
+   "intents_to_price": {
+    "lags": [
+     -8,
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "corr": [
+     0.04681112354080751,
+     0.06474154645571138,
+     -0.0893590948841638,
+     -0.1470071411909971,
+     -0.08032355600083002,
+     -0.031447693974464404,
+     0.1781206901678734,
+     -0.009593765102889848,
+     0.10783818913629462,
+     -0.08368551013511492,
+     0.003747545140365804,
+     0.023017033446575595,
+     -0.0055417846387404894,
+     -0.007766027734424419,
+     -0.12206040061301796,
+     -0.0037991992251616407,
+     0.15127548769975002
+    ],
+    "band95": 0.19060313383429006
+   },
+   "intents_to_gas": {
+    "lags": [
+     -8,
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "corr": [
+     -0.1512696766497635,
+     -0.06964778393310646,
+     -0.03035482323132826,
+     -0.017754752453003276,
+     0.011757445555392569,
+     -0.01635039132137748,
+     0.015211594497558913,
+     -0.022385536522377344,
+     0.2388737032397736,
+     0.03849980300934559,
+     -0.04739007399075336,
+     -0.015934584557601484,
+     0.08938362244646375,
+     0.013872359221300399,
+     0.027160907215128895,
+     0.17079628652649642,
+     -0.030379259615483028
+    ],
+    "band95": 0.24873071395624943
+   },
+   "price_to_gas": {
+    "lags": [
+     -8,
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "corr": [
+     0.21761407527683452,
+     -0.15737939374497886,
+     -0.17068105326899927,
+     -0.07737416839856932,
+     -0.03229256294914919,
+     -0.006989187233112726,
+     0.06436709656736603,
+     -0.016575446635238952,
+     0.0774591207874202,
+     0.2198839948961283,
+     0.23953047926181806,
+     0.00903223234623743,
+     -0.14483889879808887,
+     -0.29628360407441073,
+     -0.03447506131214563,
+     -0.0656378092339512,
+     -0.03972477886385681
+    ],
+    "band95": 0.28977888650248196
+   }
+  },
+  "corr_same_week_intents_price": 0.10783818913629462
+ },
+ "charts": [
+  {
+   "id": "issuance",
+   "title": "1. Issuance: supply growth was cut in half",
+   "sentence": "Gross issuance ran at 4.98% a year before 2025-10-30 and 2.49% after it; 107 archival block headers match the indexer's daily supply within 0.017%."
+  },
+  {
+   "id": "epochs",
+   "title": "2. Onchain check: burn vs minting per epoch",
+   "sentence": "Over the last 120 epochs (2026-09-28 to 2026-11-02) the protocol minted 3.19M NEAR and burnt 36.7K NEAR, so gas burn offset only 1.15% of issuance (2.49% a year)."
+  },
+  {
+   "id": "capture_monthly",
+   "title": "3. Value capture vs issuance, by month",
+   "sentence": "In 2026-10, gas burn plus NEAR Intents revenue offset 17.4% of the NEAR minted (burn 1.1%, Intents 16.3%); in 2026 the monthly share ranged from 8.0% to 26.6%."
+  },
+  {
+   "id": "coverage_official",
+   "title": "4. Reproducing the official revenue dashboard",
+   "sentence": "Across 10 complete months of 2026 our independent estimate differs from revenue.near.org by 3.9 percentage points on average (largest gap 10.2 pp in 2026-02); 7 of 10 months are within 5 pp."
+  },
+  {
+   "id": "usage",
+   "title": "5. Usage: L1 activity fell while cross-chain volume grew",
+   "sentence": "From Q1 2026 to the last 90 days, average daily L1 transactions changed -79% and active accounts -64%, while daily NEAR Intents volume changed +60%."
+  },
+  {
+   "id": "capture_rate",
+   "title": "6. How much of each Intents dollar NEAR keeps",
+   "sentence": "NEAR's captured revenue rose from 2.1 basis points of Intents volume in 2025-11 to 5.5 bps in 2026-10, while gross fees stayed around 15 bps (last 90 days)."
+  },
+  {
+   "id": "reflexivity",
+   "title": "7. Revenue in USD vs revenue in NEAR",
+   "sentence": "Average monthly Intents revenue in 2026-08..2026-10 was 3.0x its Q1 2026 level in USD but only 1.2x in NEAR, because the NEAR price rose 2.5x; issuance is fixed in NEAR, so a higher price raises the bar."
+  },
+  {
+   "id": "leadlag",
+   "title": "8. Does anything lead? Lead-lag tests",
+   "sentence": "0 of 10 lead-lag tests pass the Holm-adjusted 5% threshold over 74 weeks (0 pass before correction); Intents volume explains more of next weeks' L1 usage than price does for 1 of 3 usage metrics."
+  },
+  {
+   "id": "xcorr",
+   "title": "9. Cross-correlations by lag",
+   "sentence": "Same-week correlation between Intents volume growth and NEAR price returns is 0.11; Intents->price: 0 of 16 non-zero lags outside the 95% band; Intents->gas: 0 of 16 non-zero lags outside the 95% band; price->gas: 1 of 16 non-zero lags outside the 95% band."
+  },
+  {
+   "id": "wallets",
+   "title": "10. Where the bought-back NEAR sits",
+   "sentence": "Revenue wallets listed on revenue.near.org hold native NEAR (nothing is burned): buybacks.multisignature.near held 2.16M NEAR on 2026-11-02 (first sample above 10K NEAR: 2026-04-27); fefundsadmin.sputnik-dao.near held 1.97M NEAR (above 10K NEAR since the 2025-11-08 sample). DefiLlama attributes 3.16M NEAR of buybacks to the period since 2026-02-23."
+  },
+  {
+   "id": "breakeven",
+   "title": "11. What it would take: break-even scenarios",
+   "sentence": "At the last 90 days' capture rate (4.1 bps) and price, usage-based capture covers 18.7% of issuance in USD terms; it must grow 5.3x, which means about $715.07M of Intents volume per day (now $127.59M). Even at the launch-phase year-over-year volume growth (342%) that takes 1.1 years with price and capture rate held constant; at 50% a year it takes 4.1 years."
+  },
+  {
+   "id": "data_checks",
+   "title": "12. Data checks between independent sources",
+   "sentence": "Monthly gas fees from DefiLlama (Allium) and NearBlocks differ by -1% to +4% over the last 24 months, and the NearBlocks price is within 0.6% of CoinGecko on 95% of 364 days (a consistency check only: NearBlocks may source prices from CoinGecko)."
+  }
+ ]
+}
