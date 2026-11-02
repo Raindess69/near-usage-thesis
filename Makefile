@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: all fetch fetch-http build verify test clean-cache
+.PHONY: all fetch fetch-http build verify test video clean-cache
 
 all: fetch build          ## refetch every raw input, then rebuild everything
 
@@ -18,6 +18,9 @@ verify:                   ## rebuild in a temp dir and compare with committed ou
 
 test:                     ## offline unit tests
 	$(PY) -m unittest discover -s tests -v
+
+video:                    ## optional: render demo/demo.mp4 from the build outputs (needs ffmpeg)
+	$(PY) demo/make_video.py $(if $(DASHBOARD_PNG),--dashboard-png $(DASHBOARD_PNG),)
 
 clean-cache:
 	rm -rf .cache
